@@ -57,7 +57,7 @@ async def restart(client, m: Message):
     await jmthon.edit("7")
     await jmthon.edit("8")
     await jmthon.edit("9")
-    await jmthon.edit("**تم اعادة تشغيل سورس جليثون ميوزك بنجاح ✓**")
+    await jmthon.edit("**تم اعادة تشغيل سورس عبود ميوزك بنجاح ✓**")
     os.execl(sys.executable, sys.executable, *sys.argv)
     quit()
 
@@ -104,7 +104,7 @@ async def repo(client, m: Message):
 
 ⚒️ لعرض اوامر السورس ارسل  {HNDLR}الاوامر
 
-📚 • قناة جليثون  : @JAIITHON
-• قناة جليثون ميوزك @JJJWB</b>
+📚 • قناة عبود  : @JJJJZO
+• قناة عبود ميوزك ع @JJJJZO
 """
     await m.reply(REPZ, disable_web_page_preview=True)
